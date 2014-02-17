@@ -19,6 +19,10 @@
 		9484A88A18B1EAE4002B29A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9484A87218B1EAE4002B29A0 /* UIKit.framework */; };
 		9484A89218B1EAE4002B29A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9484A89018B1EAE4002B29A0 /* InfoPlist.strings */; };
 		9484A89418B1EAE4002B29A0 /* Practice1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9484A89318B1EAE4002B29A0 /* Practice1Tests.m */; };
+		9484A8A518B1EAF3002B29A0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 9484A89E18B1EAF3002B29A0 /* Card.m */; };
+		9484A8A618B1EAF3002B29A0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9484A8A018B1EAF3002B29A0 /* Deck.m */; };
+		9484A8A718B1EAF3002B29A0 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9484A8A218B1EAF3002B29A0 /* PlayingCard.m */; };
+		9484A8A818B1EAF3002B29A0 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 9484A8A418B1EAF3002B29A0 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		9484A88F18B1EAE4002B29A0 /* Practice1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practice1Tests-Info.plist"; sourceTree = "<group>"; };
 		9484A89118B1EAE4002B29A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9484A89318B1EAE4002B29A0 /* Practice1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice1Tests.m; sourceTree = "<group>"; };
+		9484A89D18B1EAF3002B29A0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		9484A89E18B1EAF3002B29A0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		9484A89F18B1EAF3002B29A0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		9484A8A018B1EAF3002B29A0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		9484A8A118B1EAF3002B29A0 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		9484A8A218B1EAF3002B29A0 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		9484A8A318B1EAF3002B29A0 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		9484A8A418B1EAF3002B29A0 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,14 @@
 		9484A87418B1EAE4002B29A0 /* Practice1 */ = {
 			isa = PBXGroup;
 			children = (
+				9484A89D18B1EAF3002B29A0 /* Card.h */,
+				9484A89E18B1EAF3002B29A0 /* Card.m */,
+				9484A89F18B1EAF3002B29A0 /* Deck.h */,
+				9484A8A018B1EAF3002B29A0 /* Deck.m */,
+				9484A8A118B1EAF3002B29A0 /* PlayingCard.h */,
+				9484A8A218B1EAF3002B29A0 /* PlayingCard.m */,
+				9484A8A318B1EAF3002B29A0 /* PlayingCardDeck.h */,
+				9484A8A418B1EAF3002B29A0 /* PlayingCardDeck.m */,
 				9484A87D18B1EAE4002B29A0 /* Practice1AppDelegate.h */,
 				9484A87E18B1EAE4002B29A0 /* Practice1AppDelegate.m */,
 				9484A88018B1EAE4002B29A0 /* Images.xcassets */,
@@ -240,8 +260,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9484A8A618B1EAF3002B29A0 /* Deck.m in Sources */,
+				9484A8A818B1EAF3002B29A0 /* PlayingCardDeck.m in Sources */,
 				9484A87B18B1EAE4002B29A0 /* main.m in Sources */,
 				9484A87F18B1EAE4002B29A0 /* Practice1AppDelegate.m in Sources */,
+				9484A8A718B1EAF3002B29A0 /* PlayingCard.m in Sources */,
+				9484A8A518B1EAF3002B29A0 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
